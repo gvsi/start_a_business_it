@@ -146,7 +146,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <meta property="product:condition" content="new" />
     <meta property="product:retailer_item_id" content="<%= product.id %>" />
     <meta property="product:price:amount" content="<%= product.price.split(" ")[0] %>"/>
-    <meta property="product:price:currency" content="product.price.split(" ")[1]"/>
+    <meta property="product:price:currency" content="<%= product.price.split(" ")[1] %>"/>
 
 
     <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
