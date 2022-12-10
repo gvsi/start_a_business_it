@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fast-csv": "^2.4.1",
     "fb": "^2.0.0",
     "foreman": "^3.0.1",
